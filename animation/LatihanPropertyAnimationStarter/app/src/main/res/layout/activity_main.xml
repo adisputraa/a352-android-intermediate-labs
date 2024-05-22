@@ -38,7 +38,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal3" />
+        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal3"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <TextView
         android:id="@+id/messageTextView"
@@ -52,7 +54,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        android:alpha="0"
+        tools:alpha="100"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -77,6 +81,8 @@
         android:text="@string/logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/messageTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView"
+        android:alpha="0"
+        tools:alpha="100"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
